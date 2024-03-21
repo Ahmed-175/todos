@@ -1,0 +1,85 @@
+
+
+
+.right{
+  width: 60%;
+  background-color: var(--com);
+  height: 90%;
+  border-radius: 10px;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.con {
+  width: 100%;
+  height: 70%;
+  overflow-y: auto;
+}
+.con .one-task{
+  width: 90%;
+  height: 3rem;
+  background-color: #2F2D36;
+  margin: 1rem auto;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.con .one-task  label{
+  margin-right:1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.check{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+
+.addTask{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right .h2{
+  color: var(--pro);
+  position: relative;
+  left: -18rem;
+}
+
+.addTask button{
+  width: 30%;
+  background:linear-gradient( to right , #8A69F7 , #754AFA);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem;
+  position: absolute;
+  bottom: -1rem;
+  right: -2rem;
+  transition: 0.4s;
+}
+
+.addTask button:hover{
+  transform: scale(1.09);
+}
+.addTask input{
+  background-color: transparent;
+  width: 95%;
+  border: 2px solid #2F2D36;
+  position: relative;
+  top: -2rem;
+  height: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
